@@ -1,24 +1,21 @@
-# Pull request template
+<!--
+IMPORTANT: if you are an external contributor, make sure you have read the "External contributors" section of CONTRIBUTING.
 
-## Description
+Here are some checklists you may like to use. Use your judgement.
 
-Please include a summary of the change. You can rely on CodeRabbitAI to fill in the details of the changes.
-
-If applicable:
-
-- Include a link to the issue that is fixed (Epic/Story/Task).
-- @mentions of any relevant people or teams.
-
-## Checklist
-
-- [ ] Commit messages broadly make sense and follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
-- [ ] PR targets master/develop
-- [ ] New tests are added for the changes (if not, mention it in the PR description). These may include:
-  - [ ] Unit tests,
-  - [ ] Integration tests,
-  - [ ] Property-Based testing,
-  - [ ] End-to-end tests.
-- [ ] The new version builds and passes all tests. If not, please mention it in the PR description.
-- [ ] Self review of the code has been done.
-- [ ] Reviewer has been requested.
-<!-- -[ ] The contribution follows our CONTRIBUTING.md guidelines -->
+This is just a checklist, all the normative suggestions are covered in more detail in CONTRIBUTING.
+-->
+Pre-submit checklist:
+- Branch
+    - [ ] Tests are provided (if possible)
+    - [ ] Commit sequence broadly makes sense
+    - [ ] Key commits have useful messages
+    - [ ] Changelog fragments have been written (if appropriate)
+    - [ ] Relevant tickets are mentioned in commit messages
+    - [ ] Formatting, PNG optimization, etc. are updated
+- PR
+    - [ ] (For external contributions) Corresponding issue exists and is linked in the description
+    - [ ] Targeting master unless this is a cherry-pick backport
+    - [ ] Self-reviewed the diff
+    - [ ] Useful pull request description
+    - [ ] Reviewer requested
